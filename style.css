@@ -1,0 +1,10 @@
+.header {
+  height: 200px;
+}
+.header__logo {
+  background-color: red;
+  display: block;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
