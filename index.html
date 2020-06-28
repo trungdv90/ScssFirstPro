@@ -9,69 +9,79 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/8a6fb5ecd1.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="wrapper">
         <header class="header">
-            <div class="container">
-                <a href="#" class="header__logo">
+            <div class="container header__inner">
+                <a href="#" class="logo">
                     <span class="logo__text">Play</span>ground
                 </a>
                 <nav class="header__menu">
-                    <ul class="header_list">
-                        <li class="header__item"><a href="#" class="header__link">Events</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Pricing</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Blog</a></li>
-                        <li class="header__item"><a href="#" class="header__link">Log in</a></li>
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item"><a href="#" class="header__menu-link">Events</a></li>
+                        <li class="header__menu-item"><a href="#" class="header__menu-link">Pricing</a></li>
+                        <li class="header__menu-item"><a href="#" class="header__menu-link">Blog</a></li>
+                        <li class="header__menu-item">
+                            <a href="#" class="header__menu-link btn btn--border btn--rounded">Log in</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
-        <seciton class="banner">
-            <h1 class="banner__heading">The Kids playground</h1>
-            <p class="banner__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit.</p>
-            <div class="banner_link">
-                <a href="" class="btn">Explore</a>
-                <a href="" class="btn"></a>Buy tickets</div>
-        </seciton>
-        <seciton class="catagory">
+        <!-- sai seciton no vẫn chạy nhưng padding ko được -->
+        <section class="banner">
             <div class="container">
-                <ul class="catagory__list">
-                    <li class="catagory__item">
-                        <img src="./images/img1.png" alt="" class="catagory__image">
-                        <h3 class="catagory__name">Safe rides</h3>
-                        <a href="" class="catagory__details">Glutten Free
-                            <i class="fa fa-angle-right "></i></a>
+                <h1 class="banner__heading">The Kids playground</h1>
+                <p class="banner__desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit.
+                </p>
+                <div class="banner__link">
+                    <a href="#" class="btn btn--border btn--rounded ">Explore</a>
+                    <a href="#" class="btn has-shadow btn--rounded btn--primary">Buy tickets</a>
+                </div>
+            </div>
+        </section>
+        <section class="category">
+            <div class="container">
+                <ul class="category__list">
+                    <li class="category__item">
+                        <img src="./images/img1.png" alt="" class="category__image" />
+                        <h3 class="category__name">Safe rides</h3>
+                        <a href="#" class="category__details">
+                            Glutten Free <i class="fa fa-angle-right"></i>
+                        </a>
                     </li>
-                    <li class="catagory__item">
-                        <img src="./images/img2.png" alt="" class="catagory__image">
-                        <h3 class="catagory__name">Safe rides</h3>
-                        <a href="" class="catagory__details">Glutten Free
-                            <i class="fa fa-angle-right "></i></a>
+                    <li class="category__item">
+                        <img src="./images/img2.png" alt="" class="category__image" />
+                        <h3 class="category__name">Safe rides</h3>
+                        <a href="#" class="category__details">
+                            Glutten Free <i class="fa fa-angle-right"></i>
+                        </a>
                     </li>
-                    <li class="catagory__item">
-                        <img src="./images/img3.png" alt="" class="catagory__image">
-                        <h3 class="catagory__name">Safe rides</h3>
-                        <a href="" class="catagory__details">Glutten Free
-                            <i class="fa fa-angle-right  "></i></a>
+                    <li class="category__item">
+                        <img src="./images/img3.png" alt="" class="category__image" />
+                        <h3 class="category__name">Safe rides</h3>
+                        <a href="#" class="category__details">
+                            Glutten Free <i class="fa fa-angle-right"></i>
+                        </a>
                     </li>
-                    <li class="catagory__item">
-                        <img src="./images/img4.png" alt="" class="catagory__image">
-                        <h3 class="catagory__name">Safe rides</h3>
-                        <a href="" class="catagory__details">Glutten Free
-                            <i class="fa fa-angle-right "></i></a>
+                    <li class="category__item">
+                        <img src="./images/img4.png" alt="" class="category__image" />
+                        <h3 class="category__name">Safe rides</h3>
+                        <a href="#" class="category__details">
+                            Glutten Free <i class="fa fa-angle-right"></i>
+                        </a>
                     </li>
                 </ul>
             </div>
-        </seciton>
-        <seciton class="features">
+        </section>
+        <section class="features">
             <div class="container">
                 <div class="features__item">
-                    <div class="features__image"><img src="" alt=""></div>
+                    <div class="features__image"><img src="./images/img5.png" alt=""></div>
                     <div class="features__info">
                         <h3 class="features__title">The outdoor enviroment is age-approriate to play</h3>
                         <p class="features__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
@@ -89,58 +99,79 @@
                     </div>
                 </div>
                 <div class="features__item">
-                    <div class="features__image"><img src="" alt=""></div>
+                    <div class="features__image"><img src="./images/img6.png" alt=""></div>
                     <div class="features__info">
                         <h3 class="features__title">The best Aquapark for kids</h3>
                         <p class="features__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
                             necessitatibus officia cupiditate magni in rem! Tenetur in quod praesentium, aliquid ipsum
                             repudiandae vel. Eveniet aliquam odit deleniti sit porro placeat?</p>
                         <ul class="features-intro__list">
-                            <li class="features-intro__item">Lorem ipsum, dolor sit amet</li>
-                            <li class="features-intro__item">Lorem ipsum, dolor sit amet</li>
-                            <li class="features-intro__item">Lorem ipsum, dolor sit amet</li>
-                            <li class="features-intro__item">Lorem ipsum, dolor sit amet</li>
+                            <li class="features-intro__item features-intro__item--circle">Lorem ipsum, dolor sit amet
+                            </li>
+                            <li class="features-intro__item features-intro__item--circle">Lorem ipsum, dolor sit amet
+                            </li>
+                            <li class="features-intro__item features-intro__item--circle">Lorem ipsum, dolor sit amet
+                            </li>
+                            <li class="features-intro__item features-intro__item--circle">Lorem ipsum, dolor sit amet
+                            </li>
                         </ul>
 
                     </div>
                 </div>
                 <div class="features__item">
-                    <div class="features__image"><img src="" alt=""></div>
+                    <div class="features__image"><img src="./images/img7.png" alt=""></div>
                     <div class="features__info">
                         <h3 class="features__title">Why we are the best</h3>
                         <p class="features__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-                            necessitatibus officia cupiditate magni in rem! Tenetur in quod </p>
-                        <ul class="features-intro__list">
-                            <li class="features-intro__item">
-                                <i class="fa fa-home features-home__icon"></i>
-                                <h4 class="features-home__title">Non profitable organization</h4>
-                                <p class="features-home__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Eveniet ut, adipisci sint </p>
+                            necessitatibus officia cupiditate magni in rem! Tenetur in quod praesentium, aliquid ipsum
+                            repudiandae vel. Eveniet aliquam odit deleniti sit porro placeat?</p>
+                        <ul class="features-best__list">
+                            <li class="features-best__item">
+                                <i class="fa fa-home features-best__icon"></i>
+                                <h4 class="features-best__title">Non profitable organization</h4>
+                                <p class="features-best__desc text-clamp text-clamp--2">Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit.
+                                    Laudantium
+                                    necessitatibus officia cupiditate magni in rem! Tenetur in quod praesentium, aliquid
+                                    ipsum
+                                    repudiandae vel. Eveniet aliquam odit deleniti sit porro placeat?</p>
                             </li>
-                            <li class="features-intro__item">
-                                <i class="fa fa-home features-home__icon"></i>
-                                <h4 class="features-home__title">Non profitable organization</h4>
-                                <p class="features-home__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Eveniet ut, adipisci sint </p>
+                            <li class="features-best__item">
+                                <i class="fa fa-home features-best__icon features-best__icon--purple"></i>
+                                <h4 class="features-best__title">Non profitable organization</h4>
+                                <p class="features-best__desc text-clamp text-clamp--2">Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit.
+                                    Laudantium
+                                    necessitatibus officia cupiditate magni in rem! Tenetur in quod praesentium, aliquid
+                                    ipsum
+                                    repudiandae vel. Eveniet aliquam odit deleniti sit porro placeat?</p>
                             </li>
-                            <li class="features-intro__item">
-                                <i class="fa fa-home features-home__icon"></i>
-                                <h4 class="features-home__title">Non profitable organization</h4>
-                                <p class="features-home__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Eveniet ut, adipisci sint </p>
+                            <li class="features-best__item">
+                                <i class="fa fa-home features-best__icon features-best__icon--red"></i>
+                                <h4 class="features-best__title">Non profitable organization</h4>
+                                <p class="features-best__desc text-clamp text-clamp--2">Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit.
+                                    Laudantium
+                                    necessitatibus officia cupiditate magni in rem! Tenetur in quod praesentium, aliquid
+                                    ipsum
+                                    repudiandae vel. Eveniet aliquam odit deleniti sit porro placeat?</p>
                             </li>
-                            <li class="features-intro__item">
-                                <i class="fa fa-home features-home__icon"></i>
-                                <h4 class="features-home__title">Non profitable organization</h4>
-                                <p class="features-home__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Eveniet ut, adipisci sint </p>
+                            <li class="features-best__item">
+                                <i class="fa fa-home features-best__icon features-best__icon--green"></i>
+                                <h4 class="features-best__title">Non profitable organization</h4>
+                                <p class="features-best__desc text-clamp text-clamp--2">Lorem ipsum dolor sit amet,
+                                    consectetur adipisicing elit.
+                                    Laudantium
+                                    necessitatibus officia cupiditate magni in rem! Tenetur in quod praesentium, aliquid
+                                    ipsum
+                                    repudiandae vel. Eveniet aliquam odit deleniti sit porro placeat?</p>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </seciton>
-        <seciton class="partner">
+        </section>
+        <section class="partner">
             <div class="container partner__container">
                 <h3 class="partner__title">Our business partners</h3>
                 <ul class="partnet__list">
@@ -155,9 +186,9 @@
                     </li>
                 </ul>
             </div>
-        </seciton>
-        <seciton class="connect"></seciton>
-        <seciton class="subscribe"></seciton>
+        </section>
+        <section class="connect"></section>
+        <section class="subscribe"></section>
         <footer class="footer"></footer>
     </div>
 </body>
