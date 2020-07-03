@@ -332,3 +332,13 @@ body {
         height: 35px;
     }
 }
+.connect  {
+    padding-bottom: 17rem;
+    text-align: center;
+    &__title {
+        font-size: 2.5rem;
+    }
+    &__notice {
+        font-size: 1.5rem;
+    }
+}
