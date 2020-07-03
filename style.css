@@ -308,4 +308,29 @@ body {
   -webkit-line-clamp: 2;
 }
 
+.partner {
+  padding-bottom: 19rem;
+}
+.partner__container {
+  max-width: 80%;
+  text-align: center;
+}
+.partner__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 7rem;
+  padding-bottom: 7rem;
+  border-bottom: 1px solid currentColor;
+}
+.partner__list {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: swap;
+  flex-direction: row;
+}
+.partner__logo {
+  height: 35px;
+}
+
 /*# sourceMappingURL=style.css.map */

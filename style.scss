@@ -307,3 +307,28 @@ body {
         -webkit-line-clamp: 2;
     }
 }
+.partner {
+    padding-bottom: 19rem;
+    &__container {
+        max-width: 80%;
+        text-align: center;
+    }
+    &__title {
+        font-size: 2rem;
+        font-weight: 700; // bold
+        margin-bottom: 7rem;
+        padding-bottom: 7rem;
+        border-bottom: 1px solid currentColor;
+    }
+    &__list {
+        @include flex(stretch, space-between, swap)
+
+    }
+    &__item {
+        //khi chinh width item thì se to ra và img sẽ nằm về left
+    }
+    &__logo{
+        //chinh height, rộng sẽ dãng theo 1 chiều
+        height: 35px;
+    }
+}
