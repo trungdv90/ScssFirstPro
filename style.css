@@ -308,4 +308,40 @@ body {
   -webkit-line-clamp: 2;
 }
 
+.partner {
+  padding-bottom: 19rem;
+}
+.partner__container {
+  max-width: 80%;
+  text-align: center;
+}
+.partner__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 7rem;
+  padding-bottom: 7rem;
+  border-bottom: 1px solid currentColor;
+}
+.partner__list {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-wrap: swap;
+  flex-direction: row;
+}
+.partner__logo {
+  height: 35px;
+}
+
+.connect {
+  padding-bottom: 17rem;
+  text-align: center;
+}
+.connect__title {
+  font-size: 2.5rem;
+}
+.connect__notice {
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
