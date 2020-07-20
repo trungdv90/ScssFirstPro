@@ -1,3 +1,7 @@
+//test branchfour
+//test branchfour
+//test branchfour
+//test branchfour
 $primary-color: #ffc87a;
 $text-color: #1a2b5f;
 $text-gray: #c6cad7;
@@ -57,6 +61,7 @@ body {
             @include flex(center);
         }
         &-item {
+            //phai dung margin thay cho space-between vi cha ko con chỗ để dảng cách
             margin-left: 5rem;
             &:last-child {
                 margin-left: 7rem;
@@ -64,6 +69,7 @@ body {
         }
         &-link {
             font-size: 1.6rem;
+            // thẻ a có màu xanh, nên phải đổi màu lại
             color: $text-color;
             transition: color 0.25s linear, border 0.25s linear;
             &:hover {
